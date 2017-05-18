@@ -1,0 +1,34 @@
+{
+  "name": "react-simple-spinner",
+  "version": "0.0.1",
+  "description": "A React spinner",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build-js",
+    "build-js": "babel src --out-dir dist",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {},
+  "author": "Asaf David <asafusan@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  },
+  "devDependencies": {
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "webpack": "1.15.0",
+    "@kadira/storybook": "^2.21.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "rimraf": "^2.6.1"
+  }
+}
