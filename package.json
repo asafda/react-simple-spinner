@@ -1,6 +1,6 @@
 {
   "name": "simple-react-spinner",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A React spinner",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "repository": {},
+  "repository": "git@github.com:asafda/react-simple-spinner.git",
   "author": "Asaf David <asafusan@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
