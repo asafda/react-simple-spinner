@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-spinner",
+  "name": "simple-react-spinner",
   "version": "0.0.1",
   "description": "A React spinner",
   "main": "dist/index.js",
